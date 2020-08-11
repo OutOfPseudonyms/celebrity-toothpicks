@@ -6,8 +6,9 @@ $(document).ready(function () {
 
     $(".name").text(nameInput);
     $(".address").text(addressInput);
-    $(".favoriteFood").text(celebrityInput);
-address $("#survey").show();
+    $(".celebrity").text(celebrityInput);
+   
+    $("#Celebrity-toothpicks-for-sale").show();
 
     $("#name").val('');
     $("#address").val('');
